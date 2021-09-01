@@ -4,12 +4,6 @@ pipeline {
   tools {nodejs "node"}
     
   stages {
-        
-    stage('Git') {
-      steps {
-        git 'https://github.com/RaviKumar10052/unit-test-react.git'
-      }
-    }
      
     stage('Build') {
       steps {
